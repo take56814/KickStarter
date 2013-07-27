@@ -17,7 +17,7 @@ This app is prepared for common functions in web apps.
   [MongoDB](http://www.mongodb.org/)
 
 ### Configuration
-**set your twitter consumer key and secret.
+**set your twitter consumer key and secret.**
   config/initializer/omniauth.rb
 
 ### Installation
