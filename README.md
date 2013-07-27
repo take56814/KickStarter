@@ -1,7 +1,7 @@
 Kick Starter Skelton 
 ====================
-Composed by Rails4 x Mongoid x Rspec x Omniauth Twitter x AngularJS x Twitter Bootstrap
----------------------------------------------------------------------------------------
+*Composed by Rails4 x Mongoid x Rspec x Omniauth Twitter x AngularJS x Twitter Bootstrap*
+
 
 This app is prepared for common functions in web apps.
 * Login with Twitter
@@ -17,11 +17,18 @@ This app is prepared for common functions in web apps.
   [MongoDB](http://www.mongodb.org/)
 
 ### Configuration
+**set your twitter consumer key and secret.
   config/initializer/omniauth.rb
-  set your twitter consumer key and secret.
 
-### Database creation
+### Installation
+
+  git clone https://github.com/take56814/KickStarter.git myapp
+
+  cd myapp
+
+  bundle install
+
 
 ### How to run the test suite
-  `rspec`
+  rspec
 
