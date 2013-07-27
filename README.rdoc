@@ -1,0 +1,19 @@
+== Kick Starter Skelton (Rails4 x Mongoid x Rspec x Omniauth Twitter x Twitter Bootstrap)
+
+This app is skelton.
+
+* Ruby version
+  2.0.0
+
+* System dependencies
+  MongoDB
+
+* Configuration
+  config/initializer/omniauth.rb
+  ** set your twitter consumer key and secret.
+
+* Database creation
+
+* How to run the test suite
+  rspec
+
