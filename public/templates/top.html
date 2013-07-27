@@ -3,6 +3,7 @@
   <h1>ニコ生！</h1>
   <p class="lead">ニコ生配信しながらWebアプリを作っていくよ。</p>
   <a ng-show="userStatus == STATE_LOGOUT" class="btn btn-large btn-success" href="/auth/twitter" target="_self">Twitter ログイン</a>
+  <a ng-show="userStatus == STATE_LOGOUT" class="btn btn-large btn-primary" href="/auth/facebook" target="_self">Facebook ログイン</a>
   <p ng-show="userStatus == STATE_LOGIN">ようこそ、{{user.nickname}}さん！</p>
 </div>
 

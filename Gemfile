@@ -16,7 +16,6 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 
 # create app in https://dev.twitter.com/apps/new
 gem 'omniauth-twitter'
-gem 'twitter'
 
 #test
 gem 'rspec-rails', :group => [:development, :test]

@@ -1,3 +1,27 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.navbar {
+  width: 950px;
+  height: 91px;
+}
+.navbar .header-tab {
+  background-color: #FFFFFF;
+
+  li {
+    margin-top: 8px;
+  }
+
+  .tab-main-msg {
+    color: #006DD9;
+    font-size: 16px;
+    margin: 8px;
+    text-align: center;
+  }
+  .tab-sub-msg {
+    color: #666666;
+    text-align: center;
+  }
+}

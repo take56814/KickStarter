@@ -11,21 +11,26 @@
 <body>
   <div class="navbar">
     <div class="navbar-inner">
-      <div class="container">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-        <a class="brand" href="#">Sample</a>
-        <div class="nav-collapse collapse navbar-responsive-collapse">
-          <ul class="nav">
-            <li><a href="/">ホーム</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
+      <div class="container header">
+        <a class="brand" href="#"><img src="/images/logo.png" alt="logo"/></a>
+        <div class="">
+          <ul class="nav nav-tabs header-tab">
+            <li class="header-tab-list">
+              <a href="/">
+                <div class="tab-main-msg">動画を見る</div>
+                <div class="tab-sub-msg">日本語字幕付きの動画</div>
+              </a>
+            </li>
+            <li>
+              <a href="/">
+                <div class="tab-main-msg">出資案件</div>
+                <div class="tab-sub-msg">字幕の制作の依頼</div>
+              </a>
+            </li>
           </ul>
           <ul class="nav pull-right">
-            <li class="divider-vertical"></li>
+            <!-- TODO -->
+            <p id="userName"></p>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">設定<b class="caret"></b></a>
               <ul class="dropdown-menu">
